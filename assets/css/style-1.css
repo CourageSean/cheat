@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Source+Code+Pro&display=swap");
+
+body {
+  position: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+#hero-2 {
+  background: url(https://www.desktopbackground.org/p/2014/08/18/811177_binary-wallpapers-for-pc_1280x800_h.jpg)
+    center/ contain;
+  height: 100vh;
+}
+
+li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  padding: 40px 150px;
+  font-family: "Source Code Pro";
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cp {
+  position: relative;
+}
+
+.introduce {
+  position: absolute;
+  font-family: "Press Start 2P";
+  color: green;
+  left: 30%;
+  top: 20px;
+  font-size: 1.3rem;
+}
+/*=============== Navbar + slide hover =============*/
+.probe {
+  position: relative;
+  width: 798px;
+  height: 300px;
+  right: -300px;
+  top: -400px;
+}
+
+.pwd:hover + .probe {
+  right: -600 px;
+  top: 420px;
+  transition: 1s ease-in;
+  transition: 1s ease-out;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+}
+
+.pwd:hover {
+  background: olive;
+  border-bottom-right-radius: 20px;
+}
+
+.cd-pic {
+  position: absolute;
+  width: 798px;
+  height: 300px;
+  right: -300px;
+  top: -400px;
+}
+
+.cd:hover + .cd-pic {
+  transform: rotate(360deg);
+  left: -0px;
+  top: 420px;
+  transition: 1s ease-in;
+  transition: 1s ease-out;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  z-index: 2;
+}
+
+.cd:hover {
+  background: rgb(117, 0, 128);
+  border-bottom-right-radius: 20px;
+}
+
+.ls-pic {
+  position: absolute;
+  width: 798px;
+  height: 300px;
+  right: -300px;
+  top: -400px;
+}
+
+.ls:hover + .ls-pic {
+  transform: rotate(-360deg);
+  left: 800px;
+  top: 420px;
+  transition: 2s ease-in;
+  transition: 1s ease-out;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  z-index: 2;
+}
+.ls:hover {
+  background: rgb(0, 60, 128);
+  border-bottom-right-radius: 20px;
+}
+
+.cat-pic {
+  position: absolute;
+  width: 798px;
+  height: 300px;
+  left: -300px;
+  top: -400px;
+}
+
+.cat:hover + .cat-pic {
+  transform: rotateZ(50deg);
+  left: 800px;
+  top: 420px;
+  transition: 2s ease-in;
+  transition: 1s ease-out;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  z-index: 2;
+}
+
+.cat:hover {
+  background: rgb(19, 187, 13);
+  border-bottom-right-radius: 20px;
+}
+
+.mkdir-pic {
+  position: absolute;
+  width: 798px;
+  height: 300px;
+  right: -300px;
+  top: -400px;
+}
+
+.mkdir:hover + .mkdir-pic {
+  right: 0px;
+  top: 20px;
+  transition: 2s ease-in;
+  transition: 1s ease-out;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  z-index: 1;
+}
+
+.mkdir:hover {
+  background: orangered;
+  border-bottom-right-radius: 20px;
+}
+
+.touch-pic {
+  position: absolute;
+  width: 798px;
+  height: 300px;
+  right: -300px;
+  top: -400px;
+}
+
+.touch:hover + .touch-pic {
+  right: 0px;
+  top: 20px;
+  transition: 2s ease-in;
+  transition: 1s ease-out;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  z-index: 1;
+}
+
+.touch:hover {
+  background: grey;
+  border-bottom-right-radius: 20px;
+}
+
+.mv-pic {
+  position: absolute;
+  width: 798px;
+  height: 300px;
+  right: -300px;
+  top: -400px;
+}
+
+.mv:hover + .mv-pic {
+  right: 0px;
+  top: 400px;
+  transition: 2s ease-in;
+  transition: 1s ease-out;
+  border-bottom-right-radius: 30px;
+  border-top-left-radius: 30px;
+  z-index: 1;
+}
+
+.mv:hover {
+  background: palevioletred;
+  border-bottom-right-radius: 20px;
+}
+
+.cp:hover {
+  background: rgb(77, 77, 39);
+  border-bottom-right-radius: 20px;
+}
+
+/*~~~~~~~~~~ ~~~~~~~~*/
+li:hover {
+  position: relative;
+
+  padding: 20px 100px;
+  transition: 1s;
+}
+
+/*=================== Intro- styling =====================*/
